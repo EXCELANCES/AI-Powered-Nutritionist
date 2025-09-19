@@ -3,6 +3,8 @@
 This project was developed as part of my Master’s thesis.  
 The goal is to leverage **Artificial Intelligence** to provide **personalized, reliable, and scalable nutrition advice**.  
 
+!!This is only proof of project. Repository includes fundamental code scripts to use AI system which is created by developer. Libraries and train data are not included.!!
+
 ## 🎯 Features
 - Generates **personalized diet plans** based on user profiles (age, weight, goals, allergies)  
 - Provides **recipe suggestions** with detailed nutritional values  
