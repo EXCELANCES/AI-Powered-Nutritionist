@@ -1,31 +1,31 @@
 # AI-Powered Nutritionist Chatbot
 
-Bu proje, yüksek lisans tez çalışmam kapsamında geliştirdiğim **AI-Powered Nutritionist Chatbot** uygulamasıdır.  
-Amaç, yapay zekâyı kullanarak kişiye özel, güvenilir ve ölçeklenebilir beslenme önerileri sunabilmektir.  
+This project was developed as part of my Master’s thesis.  
+The goal is to leverage **Artificial Intelligence** to provide **personalized, reliable, and scalable nutrition advice**.  
 
-## 🎯 Özellikler
-- Kullanıcı profiline göre kişiselleştirilmiş **diyet planı** oluşturma  
-- **Tarif önerileri** ve detaylı besin değerlerini gösterme  
-- Milyonlarca ürün datası sayesinde **marka ve ülke fark etmeksizin** besin bilgisi getirme  
-- **Türkiye’deki bir diyetisyen kliniğinden sağlanan gerçek hasta verileriyle** eğitilme  
-- Kullanıcı geri bildirim sistemi (thumbs-up / thumbs-down)  
-- Flask tabanlı frontend & backend entegrasyonu  
+## 🎯 Features
+- Generates **personalized diet plans** based on user profiles (age, weight, goals, allergies)  
+- Provides **recipe suggestions** with detailed nutritional values  
+- Retrieves nutrition facts from **millions of data points**, independent of brand or country  
+- Trained with **real anonymized patient data from a dietitian clinic in Turkey**  
+- Built-in **feedback system** (thumbs-up / thumbs-down) to improve responses  
+- Full-stack application with **Flask backend** and **interactive frontend**  
 
-## 🛠 Kullanılan Teknikler
+## 🛠 Technologies Used
 - **Fine-tuning (Gemma 2B)**  
-- **LoRA / PEFT** ile verimli model eğitimi  
+- **LoRA / PEFT** for efficient model training  
 - **RAG (Retrieval-Augmented Generation)**  
-- **FAISS** ile hızlı vektör araması  
-- **KNN** ile tarif öneri filtreleme  
-- **Flask & SQLite** tabanlı uygulama altyapısı  
+- **FAISS** for fast similarity search  
+- **KNN** for recipe recommendation filtering  
+- **Flask & SQLite** for system implementation  
 
-## 📊 Veri Kaynakları
-- **USDA** ve **OpenFoodFacts** besin veri tabanları  
-- **MenuWithNutrition** tarif verileri  
-- **Türkiye’den bir diyetisyen kliniği** tarafından sağlanan gerçek, anonimleştirilmiş hasta profilleri  
+## 📊 Data Sources
+- **USDA** and **OpenFoodFacts** nutritional databases  
+- **MenuWithNutrition** structured recipe dataset  
+- **20 anonymized clinical patient cases** from a dietitian clinic in Turkey  
 
-## 🚀 Kurulum
-1. Repoyu klonla:  
+## 🚀 Installation
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/kullaniciadi/nutritionist-chatbot.git
+   git clone https://github.com/your-username/nutritionist-chatbot.git
    cd nutritionist-chatbot
