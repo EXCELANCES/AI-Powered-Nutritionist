@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>DietaXpert | EAsolid - Affordable Digital Solutions</title>
+        <meta name="description" content="Have questions? Contact EAsolid to learn more about our affordable and professional digital solutions, including machine learning, web design, and automation.">
+        <meta name="keywords" content="contact EAsolid, digital solutions, affordable digital services, machine learning, web design, automation, professional services">
+    
+        <!-- Canonical -->
+        <link rel="canonical" href="https://www.easolid.com/DietaXpert">
+    
+        <!-- Open Graph -->
+        <meta property="og:title" content="DietaXpert | EAsolid - Affordable Digital Solutions">
+        <meta property="og:description" content="Have questions? Contact EAsolid to learn more about our affordable and professional digital solutions, including machine learning, web design, and automation.">
+        <meta property="og:image" content="https://www.easolid.com/static/images/Home_images/Picture2.png">
+        <meta property="og:url" content="https://www.easolid.com/DietaXpert">
+        <meta property="og:type" content="website">
+    
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="DietaXpert | EAsolid - Affordable Digital Solutions">
+        <meta name="twitter:description" content="Have questions? Contact EAsolid to learn more about our affordable and professional digital solutions, including machine learning, web design, and automation.">
+        <meta name="twitter:image" content="https://www.easolid.com/static/images/Home_Images/Picture2.png">
+    
+        <!-- Favicon -->
+        <link rel="icon" href="https://www.easolid.com/static/images/Home_Images/Picture2.png" type="image/png">
+    
+        <!-- CSS Files -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/contact_style.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+ 
+    <div class="logo_container">
+        <div class="loading_logo"> 
+            <img src="{{ url_for('static', filename='images/Home_Images/logo6.png') }}" >
+        </div>
+        <div class="load"> 
+            <div class="loading_balls">
+                <hr/><hr/><hr/><hr/>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------->
+    <div id="main">
+        <div class="navbar">
+            <div class="loading_logo"> 
+                <a href="{{ url_for('home') }}" target="_self">
+                    <img src="{{ url_for('static', filename='images/Home_Images/logo6.png') }}">
+                </a>
+            </div>
+        </div>
+
+        
+        <div class="main-header">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="main-header-content">
+                DietaXpert
+            </div>    
+        </div>
+        <div class="arrow-down"></div>
+    
+        <div class="container">
+            <div id="chatbot-container">
+                <div id="profile-form-container">
+                <h2>Create Your Profile</h2>
+                <form id="profileForm" class="profile-grid">
+                    <div class="form-group">
+                        <label for="name">Name (optional):</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select...</option>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="height">Height (cm):</label>
+                        <input type="number" id="height" name="height" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="weight">Weight (kg):</label>
+                        <input type="number" id="weight" name="weight" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="goal">Your Goal:</label>
+                        <select id="goal" name="goal" required>
+                            <option value="">Select...</option>
+                            <option value="lose_weight">Lose Weight</option>
+                            <option value="gain_weight">Gain Weight</option>
+                            <option value="build_muscle">Build Muscle</option>
+                            <option value="healthy_lifestyle">Stay Healthy</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="activity">Activity Level:</label>
+                        <select id="activity" name="activity" required>
+                            <option value="">Select...</option>
+                            <option value="sedentary">Sedentary</option>
+                            <option value="light">Lightly Active</option>
+                            <option value="moderate">Moderately Active</option>
+                            <option value="very_active">Very Active</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="allergies">Allergies:</label>
+                        <input type="text" id="allergies" name="allergies" placeholder="e.g. nuts, gluten, wheat">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="conditions">Conditions or Preference:</label>
+                        <input type="text" id="conditions" name="conditions" placeholder="e.g. diabetes, high blood pressure">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Start</button>
+                    </div>
+                </form>
+            </div>
+                <h2 id="LeTalk" style="display:none;">Let's Talk</h2>
+                <div  id="chat-window" style="display:none;">
+                     <div id="chat-messages">
+                        
+                     </div>
+                </div>
+                <div id="input-area" style="display:none;">
+                    <input type="text" id="userQuestion" placeholder="Type your nutrition question here..." />
+                    <button id="sendButton" onclick="askBot()">Send</button>
+                </div>
+            </div>
+        </div>
+
+            
+        </div>   
+        <!-- Footer -->
+        <footer class="footer">
+            
+            <div class="footer-column footer-logo">
+                <img src="{{ url_for('static', filename='images/Home_Images/logo6.png') }}">
+                <h1>EAsolid</h1>
+            </div>
+
+
+            
+            <div class="footer-column footer-contact">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-phone"></i> +353 (87) 277-8390</p>
+                <p><i class="fas fa-envelope"></i> info@easolid.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Phibsborough, Dublin, Ireland</p>
+                <h3>Let's Create Something Amazing!</h3>
+            </div>
+            
+        </footer>
+
+        
+        <div class="footer-bottom">
+            © 2024 Ertugrul Asliyuce. All rights reserved. <a onclick="openPopup()">Privacy Policy</a>
+        </div>
+        <style>
+
+            .popup-overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.6);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1000;
+                display: none; /* Default */
+            }
+            .popup-content {
+                background: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                max-width: 500px;
+                width: 90%;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                text-align: center;
+            }
+            .popup-content h2 {
+                margin-top: 0;
+            }
+            .popup-content p {
+                font-size: 16px;
+            }
+            .popup-content button {
+                padding: 10px 20px;
+                border: none;
+                background: #007bff;
+                color: #fff;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .popup-content button:hover {
+                background: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="popup-overlay" id="privacyPopup">
+            <div class="popup-content">
+                <h2>Privacy Policy</h2>
+                <p>This website does not collect, store, or process any personal data. It is designed solely to showcase developer services and related information. No cookies or tracking tools are used.</p>
+                <button onclick="closePopup()">OK</button>
+            </div>
+        </div>
+    
+        <script>
+            // Pop-up
+            function openPopup() {
+                document.getElementById('privacyPopup').style.display = 'flex';
+            }
+
+            // Pop-up
+            function closePopup() {
+                document.getElementById('privacyPopup').style.display = 'none';
+            }
+        </script>
+
+    
+    <script src="{{ url_for('static', filename='js/contact_JavaScript.js') }}"></script>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+    </script>
+
+    <style>
+        #sendButton:disabled, #sendButton:disabled:hover,
+        #input-area button:disabled, #input-area button:disabled:hover {
+            background: #ccc !important;
+            color: #888 !important;
+            opacity: 0.7 !important;
+            cursor: not-allowed !important;
+            border: 1px solid #999 !important;
+        }
+    </style>
+
+
+
+
+
+</body>
+</html>

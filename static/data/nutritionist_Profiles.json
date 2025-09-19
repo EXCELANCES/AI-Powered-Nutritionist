@@ -1,0 +1,535 @@
+[
+  {
+    "id": 1,
+    "gender": "female",
+    "age": 24,
+    "activity_level": "moderate",
+    "goal": "weight_maintenance",
+    "meals": {
+      "breakfast": [
+        "1 slice whole wheat bread",
+        "1 boiled egg",
+        "1 slice low-fat white cheese",
+        "5-6 olives",
+        "1 small tomato + 1 small cucumber",
+        "1 teaspoon honey",
+        "Unsweetened tea"
+      ],
+      "snack_1": [
+        "1 small apple",
+        "6 almonds"
+      ],
+      "lunch": [
+        "1 portion grilled chicken breast",
+        "4-5 tablespoons olive oil vegetable dish (zucchini, carrot, broccoli)",
+        "3 tablespoons bulgur pilaf",
+        "Green salad (fat-free or with 1 tsp olive oil)"
+      ],
+      "snack_2": [
+        "1 pack (180 ml) kefir"
+      ],
+      "dinner": [
+        "1 bowl lentil soup",
+        "1 portion vegetable omelette (2 eggs, pepper, tomato, spinach)",
+        "1 slice whole wheat bread",
+        "1 small orange"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "gender": "male",
+    "age": 32,
+    "activity_level": "low",
+    "goal": "weight_loss",
+    "health_condition": "mild_hypertension",
+    "meals": {
+      "breakfast": [
+        "1 slice whole grain bread",
+        "1 boiled egg",
+        "1 slice salt-free curd cheese",
+        "5-6 unsalted olives",
+        "1 small cucumber + tomato",
+        "Unsweetened herbal tea"
+      ],
+      "snack_1": [
+        "1 pear"
+      ],
+      "lunch": [
+        "1 portion olive oil vegetable dish (zucchini, eggplant, pepper)",
+        "2 tablespoons bulgur pilaf",
+        "Salad with plenty of lemon",
+        "1 small bowl plain yogurt (salt-free)"
+      ],
+      "snack_2": [
+        "10 raw almonds"
+      ],
+      "dinner": [
+        "1 portion grilled fish (preferably unsalted)",
+        "1 slice whole grain bread",
+        "Steamed broccoli and carrot mix",
+        "1 small kiwi"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "gender": "female",
+    "age": 29,
+    "activity_level": "high",
+    "goal": "muscle_gain",
+    "preference": "vegan",
+    "meals": {
+      "breakfast": [
+        "1 bowl oatmeal (with soy milk)",
+        "1 tsp chia seeds",
+        "Half banana",
+        "5 strawberries",
+        "6 hazelnuts"
+      ],
+      "snack_1": [
+        "1 handful raw almonds",
+        "1 orange"
+      ],
+      "lunch": [
+        "1 portion stewed chickpeas (with olive oil)",
+        "4 tbsp quinoa pilaf",
+        "Green salad with avocado",
+        "Grilled vegetables (eggplant, zucchini) wrapped in whole wheat flatbread"
+      ],
+      "snack_2": [
+        "1 bowl plant-based yogurt (almond or soy)"
+      ],
+      "dinner": [
+        "1 portion lentil patties",
+        "Plenty of arugula, tomato, parsley",
+        "1 slice whole grain bread",
+        "1 glass freshly squeezed orange juice"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "gender": "male",
+    "age": 45,
+    "activity_level": "moderate",
+    "goal": "blood_sugar_control",
+    "health_condition": "type_2_diabetes",
+    "meals": {
+      "breakfast": [
+        "1 slice whole grain bread",
+        "1 slice low-fat white cheese",
+        "5 walnuts",
+        "1 tomato, 1 cucumber",
+        "1 boiled egg",
+        "Unsweetened herbal tea"
+      ],
+      "snack_1": [
+        "1 apple"
+      ],
+      "lunch": [
+        "1 portion boiled meat & vegetable stew (eggplant, pepper, zucchini)",
+        "3 tbsp brown bulgur pilaf",
+        "Plain yogurt (unsalted, unsweetened)",
+        "Green salad (with lemon, no oil)"
+      ],
+      "snack_2": [
+        "1 small bowl yogurt + 1 tsp cinnamon"
+      ],
+      "dinner": [
+        "1 bowl vegetable soup (without vermicelli)",
+        "1 portion baked chicken",
+        "Boiled broccoli, carrot, cauliflower",
+        "1 slice whole grain bread"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "gender": "female",
+    "age": 37,
+    "activity_level": "low",
+    "goal": "weight_loss",
+    "preference": "vegetarian",
+    "meals": {
+      "breakfast": [
+        "1 slice rye bread",
+        "1 boiled egg",
+        "1 slice avocado",
+        "4 walnuts",
+        "Tomato, cucumber",
+        "Unsweetened herbal tea"
+      ],
+      "snack_1": [
+        "1 pear"
+      ],
+      "lunch": [
+        "1 portion vegetable gratin (cauliflower, broccoli, carrot)",
+        "2 tbsp quinoa",
+        "Green salad (1 tsp olive oil)"
+      ],
+      "snack_2": [
+        "1 bowl yogurt"
+      ],
+      "dinner": [
+        "1 portion spinach & cheese omelette (2 eggs, white cheese)",
+        "1 slice rye bread",
+        "Seasonal salad"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "gender": "male",
+    "age": 27,
+    "activity_level": "high",
+    "goal": "muscle_gain",
+    "preference": "lactose_free",
+    "meals": {
+      "breakfast": [
+        "2 boiled eggs",
+        "1 slice lactose-free cheese",
+        "1 handful raw almonds",
+        "1 slice whole wheat bread",
+        "Tomato, cucumber",
+        "Unsweetened herbal tea"
+      ],
+      "snack_1": [
+        "1 banana",
+        "1 pack lactose-free milk"
+      ],
+      "lunch": [
+        "1 portion grilled chicken breast",
+        "1 plate quinoa pilaf",
+        "Green salad",
+        "1 small orange"
+      ],
+      "snack_2": [
+        "1 portion hummus (without tahini)",
+        "Whole wheat cracker"
+      ],
+      "dinner": [
+        "1 portion grilled red meat",
+        "1 portion boiled potato",
+        "Grilled vegetables (zucchini, eggplant, pepper)"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "gender": "female",
+    "age": 53,
+    "activity_level": "low",
+    "goal": "healthy_aging",
+    "health_condition": ["menopause", "osteoporosis"],
+    "meals": {
+      "breakfast": [
+        "1 slice whole grain bread",
+        "1 boiled egg",
+        "1 slice low-fat white cheese",
+        "2 whole walnuts",
+        "1 glass milk (lactose-free or regular)",
+        "Tomato, arugula"
+      ],
+      "snack_1": [
+        "1 small kiwi"
+      ],
+      "lunch": [
+        "1 portion chicken sauté with vegetables",
+        "2 tbsp buckwheat pilaf",
+        "Green salad",
+        "1 small orange"
+      ],
+      "snack_2": [
+        "1 bowl yogurt"
+      ],
+      "dinner": [
+        "1 bowl vegetable soup",
+        "1 portion grilled salmon",
+        "Grilled zucchini, carrot",
+        "1 slice whole grain bread"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "gender": "male",
+    "age": 39,
+    "activity_level": "very_low",
+    "goal": ["weight_loss", "liver_health"],
+    "health_condition": "fatty_liver",
+    "meals": {
+      "breakfast": [
+        "1 slice whole grain bread",
+        "1 slice low-fat white cheese",
+        "Tomato, cucumber, parsley",
+        "1 boiled egg",
+        "Unsweetened herbal tea"
+      ],
+      "snack_1": [
+        "1 apple"
+      ],
+      "lunch": [
+        "1 portion olive oil vegetable dish",
+        "2 tbsp bulgur pilaf",
+        "Green salad with lemon"
+      ],
+      "snack_2": [
+        "1 small bowl yogurt"
+      ],
+      "dinner": [
+        "1 bowl vegetable soup",
+        "1 portion baked chicken",
+        "Steamed broccoli, carrot",
+        "1 slice whole grain bread"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "gender": "female",
+    "age": 21,
+    "activity_level": "high",
+    "goal": "weight_gain",
+    "meals": {
+      "breakfast": [
+        "2 slices whole wheat bread",
+        "Egg omelet",
+        "1 slice white cheese",
+        "5 walnuts",
+        "1 slice avocado",
+        "Tomato, cucumber",
+        "Unsweetened tea"
+      ],
+      "snack_1": [
+        "1 banana",
+        "1 glass milk"
+      ],
+      "lunch": [
+        "1 portion grilled meatballs",
+        "1 plate pilaf (rice or bulgur)",
+        "Seasonal salad",
+        "1 small bowl yogurt"
+      ],
+      "snack_2": [
+        "1 slice walnut cake",
+        "1 glass ayran (yogurt drink)"
+      ],
+      "dinner": [
+        "1 portion chicken sauté with vegetables",
+        "1 slice whole wheat bread",
+        "Green salad"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "gender": "male",
+    "age": 60,
+    "activity_level": "moderate",
+    "goal": "heart_health",
+    "health_condition": "cardiovascular_disease",
+    "preference": "salt_free",
+    "meals": {
+      "breakfast": [
+        "1 slice salt-free whole wheat bread",
+        "1 slice salt-free curd cheese",
+        "1 boiled egg",
+        "1 slice avocado",
+        "1 tomato, 1 cucumber",
+        "Unsweetened herbal tea"
+      ],
+      "snack_1": [
+        "1 pear"
+      ],
+      "lunch": [
+        "1 portion grilled fish (salt-free)",
+        "1 plate boiled vegetables (salt-free)",
+        "1 slice salt-free whole wheat bread",
+        "Salad with lemon"
+      ],
+      "snack_2": [
+        "1 small bowl yogurt (salt-free)"
+      ],
+      "dinner": [
+        "1 bowl salt-free lentil soup",
+        "1 portion olive oil vegetable dish",
+        "1 small apple"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "gender": "female",
+    "age": 27,
+    "activity_level": "moderate",
+    "goal": "weight_maintenance",
+    "health_condition": "lactose_intolerance",
+    "preference": "lactose_free",
+    "meals": {
+      "breakfast": [
+        "1 slice whole grain bread",
+        "1 boiled egg",
+        "1 slice lactose-free white cheese",
+        "2 walnuts",
+        "Tomato, cucumber",
+        "Herbal tea"
+      ],
+      "snack_1": [
+        "1 small banana",
+        "6 raw almonds"
+      ],
+      "lunch": [
+        "1 portion grilled chicken breast",
+        "3 tbsp quinoa pilaf",
+        "Green salad"
+      ],
+      "snack_2": [
+        "1 small pear"
+      ],
+      "dinner": [
+        "1 bowl lentil soup",
+        "1 slice whole grain bread",
+        "Grilled vegetables (zucchini, eggplant, pepper)"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "gender": "male",
+    "age": 48,
+    "activity_level": "low",
+    "goal": "weight_loss",
+    "health_condition": ["obesity", "sleep_apnea"],
+    "meals": {
+      "breakfast": [
+        "1 slice whole grain bread",
+        "1 boiled egg",
+        "1 slice low-fat white cheese",
+        "5 olives",
+        "1 tomato, 1 cucumber",
+        "Unsweetened herbal tea"
+      ],
+      "snack_1": [
+        "1 small apple"
+      ],
+      "lunch": [
+        "1 portion grilled turkey breast",
+        "2 tbsp bulgur pilaf",
+        "Green salad"
+      ],
+      "snack_2": [
+        "10 raw almonds"
+      ],
+      "dinner": [
+        "1 bowl vegetable soup",
+        "1 portion olive oil vegetable dish",
+        "1 slice whole grain bread"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "gender": "female",
+    "age": 35,
+    "activity_level": "moderate",
+    "goal": "support_metabolism",
+    "health_condition": "hashimoto_thyroiditis",
+    "meals": {
+      "breakfast": [
+        "1 slice whole grain bread",
+        "1 boiled egg",
+        "1 slice goat cheese",
+        "2 walnuts",
+        "1 tomato, 1 cucumber",
+        "Herbal tea"
+      ],
+      "snack_1": [
+        "1 pear"
+      ],
+      "lunch": [
+        "1 portion olive oil zucchini dish",
+        "3 tbsp buckwheat pilaf",
+        "Green salad"
+      ],
+      "snack_2": [
+        "1 small orange"
+      ],
+      "dinner": [
+        "1 bowl lentil soup",
+        "1 slice whole wheat bread",
+        "1 portion grilled chicken"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "gender": "male",
+    "age": 16,
+    "activity_level": "high",
+    "goal": ["muscle_gain", "growth"],
+    "meals": {
+      "breakfast": [
+        "2-egg omelette",
+        "1 slice white cheese",
+        "2 slices whole wheat bread",
+        "1 banana",
+        "1 glass milk"
+      ],
+      "snack_1": [
+        "1 handful hazelnuts",
+        "1 orange"
+      ],
+      "lunch": [
+        "1 portion grilled chicken",
+        "1 plate pasta",
+        "1 small bowl yogurt",
+        "Seasonal salad"
+      ],
+      "snack_2": [
+        "1 small sandwich (whole wheat bread, cheese, lettuce)"
+      ],
+      "dinner": [
+        "1 portion meatballs",
+        "1 portion pilaf",
+        "Grilled vegetables",
+        "1 apple"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "gender": "female",
+    "age": 42,
+    "activity_level": "low",
+    "goal": ["weight_maintenance", "healthy_life"],
+    "preference": "gluten_free",
+    "health_condition": "gluten_sensitivity",
+    "meals": {
+      "breakfast": [
+        "2 gluten-free breadsticks",
+        "1 slice goat cheese",
+        "1 boiled egg",
+        "Tomato, cucumber",
+        "Unsweetened herbal tea"
+      ],
+      "snack_1": [
+        "1 apple",
+        "5 raw almonds"
+      ],
+      "lunch": [
+        "1 portion grilled fish",
+        "2 tbsp quinoa pilaf",
+        "Salad with plenty of arugula, parsley, lemon"
+      ],
+      "snack_2": [
+        "1 small bowl lactose-free yogurt"
+      ],
+      "dinner": [
+        "1 bowl gluten-free lentil soup",
+        "1 slice gluten-free bread",
+        "Grilled vegetables (zucchini, pepper, eggplant)"
+      ]
+    }
+  }
+]
